@@ -11,14 +11,15 @@ function TodoList() {
             </form>
 
             <div class="listaTarefas">
-                <div classname="item completo">
+                <div className="item">
                     <span>Tarefa de exemplo</span>
-                    <button>Deletar</button>
+                    <button className="del">Deletar</button>
                 </div>
-                <div classname="item completo">
+                <div className="item completo">
                     <span>Tarefa de exemplo</span>
-                    <button>Deletar</button>
+                    <button className="del">Deletar</button>
                 </div>
+                <button className="deletAll">Deletar Todas</button>
             </div>
         </div>
     )

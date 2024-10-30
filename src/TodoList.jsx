@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import './TodoList.css';
 
 function TodoList() {
+
+    const [lista, setLista] = useState([]);
+    const [novoItem, setNovoItem] = useState("");
+
     return (
         <div>
             <h1>Lista de Tarefas</h1>
